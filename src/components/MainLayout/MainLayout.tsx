@@ -10,7 +10,7 @@ function Copyright() {
     <Typography variant="body2" color="textSecondary" align="center">
       {"Copyright © "}
       <Link color="inherit" href="https://material-ui.com/" underline="hover">
-        My Store
+        E-Book Store by Ashish!
       </Link>{" "}
       {new Date().getFullYear()}
       {"."}
@@ -29,7 +29,7 @@ const MainLayout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
       </main>
       <Box
         component={"footer"}
-        sx={{ bgcolor: (theme) => theme.palette.background.paper, padding: 6 }}
+        sx={{ bgcolor: (theme: { palette: { background: { paper: any; }; }; }) => theme.palette.background.paper, padding: 6 }}
       >
         <Typography
           variant="subtitle1"
