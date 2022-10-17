@@ -8,43 +8,37 @@ export const products: Product[] = [
     description: "Short Product Description1",
     id: "7567ec4b-b10c-48c5-9345-fc73c48a80aa",
     price: 24,
-    name: "ProductOne",
-    availableDate: "23-12-2012"
+    title: "ProductOne",
   },
   {
     description: "Short Product Description7",
     id: "7567ec4b-b10c-48c5-9345-fc73c48a80a1",
     price: 15,
-    name: "ProductTitle",
-    availableDate: "23-12-2012"
+    title: "ProductOne",
   },
   {
     description: "Short Product Description2",
     id: "7567ec4b-b10c-48c5-9345-fc73c48a80a3",
     price: 23,
-    name: "Product",
-    availableDate: "23-12-2012"
+    title: "ProductOne",
   },
   {
     description: "Short Product Description4",
     id: "7567ec4b-b10c-48c5-9345-fc73348a80a1",
     price: 15,
-    name: "ProductTest",
-    availableDate: "23-12-2012"
+    title: "ProductTest",
   },
   {
     description: "Short Product Descriptio1",
     id: "7567ec4b-b10c-48c5-9445-fc73c48a80a2",
     price: 23,
-    name: "Product2",
-    availableDate: "23-12-2012"
+    title: "Product2",
   },
   {
     description: "Short Product Description7",
     id: "7567ec4b-b10c-45c5-9345-fc73c48a80a1",
     price: 15,
-    name: "ProductName",
-    availableDate: "23-12-2012"
+    title: "ProductName",
   },
 ];
 
@@ -58,8 +52,7 @@ export const cart: CartItem[] = [
       description: "Short Product Description1",
       id: "7567ec4b-b10c-48c5-9345-fc73c48a80aa",
       price: 24,
-      name: "ProductOne",
-      availableDate: "23-12-2012"
+      title: "ProductOne",
     },
     count: 2,
   },
@@ -68,8 +61,7 @@ export const cart: CartItem[] = [
       description: "Short Product Description7",
       id: "7567ec4b-b10c-45c5-9345-fc73c48a80a1",
       price: 15,
-      name: "ProductName",
-      availableDate: "23-12-2012"
+      title: "ProductName",
     },
     count: 5,
   },
