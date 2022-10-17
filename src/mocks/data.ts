@@ -14,13 +14,13 @@ export const products: Product[] = [
     description: "Short Product Description7",
     id: "7567ec4b-b10c-48c5-9345-fc73c48a80a1",
     price: 15,
-    title: "ProductTitle",
+    title: "ProductOne",
   },
   {
     description: "Short Product Description2",
     id: "7567ec4b-b10c-48c5-9345-fc73c48a80a3",
     price: 23,
-    title: "Product",
+    title: "ProductOne",
   },
   {
     description: "Short Product Description4",
