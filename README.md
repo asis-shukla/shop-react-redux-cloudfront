@@ -11,6 +11,13 @@ S3 URL: http://my-eboook-store-app-v3.s3-website-us-east-1.amazonaws.com/
 
 CloudFront URL: https://dcclx935ir039.cloudfront.net/ 
  
+# How to build and deploy latest changes
+To deploy as new service:
+npm run cloudfront:update:build:deploy
+
+To update build with latest changes and invalidate CloudFront cache run:
+npm run cloudfront:build:deploy
+
 
 This is frontend starter project for nodejs-aws mentoring program. It uses the following technologies:
 
