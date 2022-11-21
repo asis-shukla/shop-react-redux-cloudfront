@@ -8,6 +8,23 @@ import { QueryClient, QueryClientProvider } from "react-query";
 import { ReactQueryDevtools } from "react-query/devtools";
 import { theme } from "~/theme";
 
+import axios from "axios";
+
+axios.interceptors.response.use(
+  (response) => {
+    console.log("response", JSON.stringify(response));
+    return response;
+  },
+  (error) => {
+    console.log("error response is", error);
+    const responseStatus = error.response.status;
+
+    if ([401, 403, 400, 500].includes(responseStatus)) {
+      alert(error.response.data?.message);
+    }
+  }
+);
+
 const queryClient = new QueryClient({
   defaultOptions: {
     queries: { refetchOnWindowFocus: false, retry: false, staleTime: Infinity },
